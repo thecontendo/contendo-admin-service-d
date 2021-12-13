@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContendoAdmin", "ContendoAdmin\ContendoAdmin.csproj", "{15D9FA68-8611-46F2-ADE4-F21D94292C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContendoAdmin.Api", "ContendoAdmin.Api\ContendoAdmin.Api.csproj", "{CF3340FB-FDD9-4B98-AD53-9D9A45002277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContendoAdmin.Extensions", "ContendoAdmin.Extensions\ContendoAdmin.Extensions.csproj", "{830EFF6B-193B-4E6C-AF74-3D088E970FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContendoAdmin.Models", "ContendoAdmin.Models\ContendoAdmin.Models.csproj", "{D3F484C2-1866-44B0-8D50-C4EBA6069387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContendoAdmin.Services", "ContendoAdmin.Services\ContendoAdmin.Services.csproj", "{676A00FD-1FB5-46F6-8219-4765A658408B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContendoAdmin.Db", "ContendoAdmin.Db\ContendoAdmin.Db.csproj", "{7DA72783-9982-4E5F-B495-59C7E9226CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15D9FA68-8611-46F2-ADE4-F21D94292C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D9FA68-8611-46F2-ADE4-F21D94292C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D9FA68-8611-46F2-ADE4-F21D94292C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D9FA68-8611-46F2-ADE4-F21D94292C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3340FB-FDD9-4B98-AD53-9D9A45002277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3340FB-FDD9-4B98-AD53-9D9A45002277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3340FB-FDD9-4B98-AD53-9D9A45002277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3340FB-FDD9-4B98-AD53-9D9A45002277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830EFF6B-193B-4E6C-AF74-3D088E970FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830EFF6B-193B-4E6C-AF74-3D088E970FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830EFF6B-193B-4E6C-AF74-3D088E970FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830EFF6B-193B-4E6C-AF74-3D088E970FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F484C2-1866-44B0-8D50-C4EBA6069387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F484C2-1866-44B0-8D50-C4EBA6069387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F484C2-1866-44B0-8D50-C4EBA6069387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F484C2-1866-44B0-8D50-C4EBA6069387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676A00FD-1FB5-46F6-8219-4765A658408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676A00FD-1FB5-46F6-8219-4765A658408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676A00FD-1FB5-46F6-8219-4765A658408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676A00FD-1FB5-46F6-8219-4765A658408B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA72783-9982-4E5F-B495-59C7E9226CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA72783-9982-4E5F-B495-59C7E9226CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA72783-9982-4E5F-B495-59C7E9226CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA72783-9982-4E5F-B495-59C7E9226CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97BDC5D9-9552-41FF-A74E-C1EAD52D1EBE}
+	EndGlobalSection
+EndGlobal

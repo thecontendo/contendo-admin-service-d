@@ -1,0 +1,38 @@
+version: '3.7'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Contendo/build/Dockerfile
+      network: host
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - "5001:80"
+#    depends_on:
+#      - backend
+    networks:
+      - my_network
+      
+#  backend:
+#    image: postgres
+#    environment:
+#      POSTGRES_USER: 'postgres'
+#      POSTGRES_PASSWORD: 'Vistex123!'
+#      PGDATA: /data/postgres
+#    volumes:
+#      - postgres:/data/postgres
+#    ports:
+#      - "5432:5432"
+#    networks:
+#      - my_network
+#    restart: unless-stopped
+
+
+networks:
+  my_network:
+    driver: bridge
+    
+volumes:
+  postgres:
